@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+#header{
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+li:not(:first-child){
+  background-color: brown;
+  color: white;
+}
+
+.list-item-big{
+  font-weight: 600;
+  font-size: 18px;
+}

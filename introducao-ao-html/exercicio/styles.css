@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+header, footer{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#app {
+display: flex;
+align-items: left;
+flex-direction: column;
+justify-content: space-between;
+border: 1px solid rgb(78, 78, 196);
+width: 50%;
+margin: 0 auto;
+padding: 20px;
+border-radius: 14px;
+}
+
+.bgHello{
+  padding: 15px;
+  background-color: rgb(61, 61, 61);
+  color: #fff;
+}
+
+.bgHello:hover{
+  background-color: crimson;
+}
+
+#contentHello {
+  display: none;
+}
+
+.active{
+  display: flex;
+}
